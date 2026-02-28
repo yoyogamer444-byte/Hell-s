@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-pixel: "Press Start 2P", monospace;
+  --font-vt: "VT323", monospace;
+}
+
+.pixel-shadow {
+  box-shadow: 8px 8px 0px #000;
+}
+
+.pixel-shadow-sm {
+  box-shadow: 4px 4px 0px #000;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+}
